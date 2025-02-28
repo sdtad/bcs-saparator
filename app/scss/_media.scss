@@ -1,0 +1,324 @@
+@media (max-width: 1199px){
+	.footer-content{
+		justify-content: space-around;
+	}
+}//=========max-width: 1199px=========
+
+
+@media (max-width: 999px){
+	table{
+		tr{
+			td{
+				&.tabopis{
+					width: 80%;
+				}
+				&.tabprice{
+					width: 20%;
+				}
+			}
+		}
+	}
+	.navigation{
+		ul{
+			li + li{
+				padding-left: 30px;
+			}
+		}
+	}
+	.header-contact{
+		ul{
+			li{
+				&:first-child{
+					display: none;
+				}
+				&:nth-child(2){
+					border-left: none;	
+				}
+			}
+		}
+	}
+}//=========max-width: 999px=========
+
+
+@media (max-width: 899px){
+	.navigation{
+		ul{
+			li + li{
+				padding-left: 26px;
+			}
+		}
+	}	
+	.call-me-text{
+		font-size: 18px;
+	}
+}//=========max-width: 899px=========
+
+
+@media (max-width: 799px){
+	.navigation-btn{
+		display: block;
+	}
+	.navigation{
+		padding: 10px 0;
+		ul{
+			display: none;
+			position: absolute;
+			z-index: 9999;
+			text-align: center;
+			width: 100%;
+			top: 136px;
+			left: 0;
+			right: 0;
+			li{
+				display: block;
+				width: 100%;
+				a{
+					display: block;
+					background-color: rgba(0,0,0,0.9);
+					color: $textColorYellow;
+					text-shadow: none;
+					border: none;
+					line-height: 60px;
+					&:before{
+						height: 0;
+					}
+					&:hover{
+						text-decoration: none;
+					}
+				}	
+			}
+			li + li{
+				padding: 0;
+			}
+		}
+	}
+
+	.header-bg{
+		&:before{
+			width: 50%;
+		}
+	}	
+	.header-contact{
+		ul{
+			li{
+				&:nth-child(2){
+					display: none;
+				}
+				&:nth-child(3){
+					border-left: none;	
+				}			
+			}
+			li + li{
+				border: none;
+			}
+		}
+	}
+
+	.banner{
+		height: 400px;
+	}
+	.banner__inner{
+		height: 400px;
+	}
+	.slider__item-title{
+		font-size: 30px;
+		line-height: 80px;
+	}
+
+
+	.call-me-text{
+		font-size: 16px;
+	}
+
+	.footer-logo{
+		text-align: center;
+	}
+	.footer-contact-content{
+		padding-top: 0px;
+	}
+
+	.contacts__inner{
+		display: block;
+		text-align: center;
+	}
+	.contacts-content, .contacts-map{
+		max-width: 100%;
+		width: 100%;
+		margin-bottom: 20px;
+		
+	}
+}//=========max-width: 799px=========
+
+
+@media (max-width: 699px){
+	.banner{
+		height: 300px;
+	}
+	.banner__inner{
+		height: 300px;
+	}
+	.slider__item-title{
+		font-size: 24px;
+		line-height: 50px;
+	}
+
+	.call-me{
+		display: none;
+	}
+
+}//=========max-width: 699px=========
+
+
+@media (max-width: 599px){
+	.info-card{
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+}//=========max-width: 599px=========
+
+
+@media (max-width: 549px){
+	table{
+		tr{
+			td{
+				&.tabopis{
+					width: 70%;
+				}
+				&.tabprice{
+					width: 30%;
+				}
+			}
+		}
+	}	
+	.header-bg{
+		&:before{
+			width: 60%;
+		}
+	}
+
+}//=========max-width: 549px=========
+
+
+@media (max-width: 499px){
+	.header-bg{
+		&:before{
+			width: 70%;
+		}
+	}	
+	.header-language{
+		ul{
+			li{
+				a{
+					font-size: 12px;
+				}
+			}
+		}
+	}	
+	.header-contact{
+		ul{
+			padding-top: 2px;
+			li{
+				a{
+					font-size: 12px;
+				}
+			}
+		}
+	}		
+	.contact-img-tel{
+		&:before{
+			 top: -6px;
+		}	
+	}
+
+	.banner{
+		height: 260px;
+	}
+	.banner__inner{
+		height: 260px;
+	}
+	.slider__item-title{
+		font-size: 18px;
+	}
+	.button-yellow{
+		a {
+			padding: 8px 20px;
+			font-size: 14px;
+		}
+	}	
+
+	h1, h2, h3, h4, h5, h6{
+		font-size: 18px;
+	}
+
+	.unique-offer-content{
+		padding: 0;
+		border: none;
+		&:before{
+			content: '';
+		}
+	}
+
+	.call{
+		bottom: 16px;
+		right: 16px;
+	}
+
+}//=========max-width: 499px=========
+
+
+@media (max-width: 399px){
+	table{
+		tr{
+			td{
+				&.tabopis{
+					width: 60%;
+				}
+				&.tabprice{
+					width: 40%;
+				}
+			}
+		}
+	}	
+	.header-bg{
+		&:before{
+			width: 80%;
+		}
+	}	
+	.header-contact{
+		ul{
+			margin-right: 0px;
+			li{
+				padding: 0 0 0 10px;
+			}
+		}
+	}
+	.contact-img{
+		padding-left: 14px;
+	}	
+
+	.banner{
+		height: 200px;
+	}
+	.banner__inner{
+		height: 200px;
+	}
+	.slider__item-title{
+		font-size: 14px;
+		line-height: 30px;
+	}
+	.button-yellow{
+		a {
+			padding: 4px 10px;
+			font-size: 14px;
+		}
+	}
+
+}//=========max-width: 399px=========
+
+
+@media (min-width: 799px){
+	.navigation ul{
+		display: block !important;
+	}
+}
